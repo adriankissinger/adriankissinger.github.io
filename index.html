@@ -6,27 +6,24 @@
     </title>
 </head>
 <body>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId            : '289532606037338',
-          autoLogAppEvents : true,
-          xfbml            : true,
-          version          : 'v10.0'
-        });
-      };
-      FB.login(function(response) {
-        if (response.authResponse) {
-            console.log('Welcome!  Fetching your information.... ');
-            FB.api('/me', function(response) {
-                console.log('Good to see you, ' + response.name + '.');
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v10.0&appId=289532606037338&autoLogAppEvents=1" nonce="WlXCSROe"></script>
+
+    <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+    <!--
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId            : '289532606037338',
+              autoLogAppEvents : true,
+              xfbml            : true,
+              version          : 'v10.0'
             });
-        } else {
-            console.log('User cancelled login or did not fully authorize.');
-        }
-      });
-    </script>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+          };
+        </script>
+    //-->
+
 
 </body>
+</html>
 
