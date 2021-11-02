@@ -19,7 +19,6 @@
 
 <button onclick="addWord()">Hinzufügen</button>
 <!--  <a href="start.html" > Spiel starten</a> -->
-<br><br>
 <label id="lbl2">Wort</label>
 <button onclick="nextWord()">Nächstes Wort</button>
 
