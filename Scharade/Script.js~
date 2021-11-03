@@ -18,10 +18,8 @@ function nextWord(){
 	if (b == 0){
 		x.innerHTML = wordsTeam1[0];
 		wordsTeam1.splice(0, 1);
-		window.alert("e");
 		b = 1;
 	} else {
-		window.alert("z");
 		x.innerHTML = wordsTeam2[0];	
 		wordsTeam2.splice(0, 1);
 		b = 0;

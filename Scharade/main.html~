@@ -9,22 +9,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div style="background-image: url('evi.jpg');">
-<form id="frm1">
-	<label>Team</label>
-	<input type="radio" id="1" name="team">
-	<label>1</label>
-	<input type="radio" id="2" name="team">
-	<label>2</label>
-	<br>
-	Wort: <input type="text" name="word" value="">
-</form>
+<div id="divBack">
 
-<button onclick="addWord()">Hinzufügen</button>
+<div id="divFrm">
+<form id="frm1">
+	<label id="lblTeam">Team:</label>
+	<input type="radio" id="1" name="team">
+	<label id="lbl1">1</label>
+	<input type="radio" id="2" name="team">
+	<label id="lbl2">2</label><br><br>
+	Wort: <input type="text" name="word" value="" id="input">
+	<button onclick="addWord()" id="btnAdd">Hinzufügen</button>
+</form>
+</div>
+
+
 <!--  <a href="start.html" > Spiel starten</a> -->
 <br><br>
-<label id="lbl2">Wort</label>
-<button onclick="nextWord()">Nächstes Wort</button>
+<label id="lblOutput">____</label>
+<button onclick="nextWord()" id="bNext">Nächstes Wort</button>
 
 
 

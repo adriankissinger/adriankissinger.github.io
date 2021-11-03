@@ -14,7 +14,7 @@ function addWord(){
 function nextWord(){
 	shuffle(wordsTeam1);
 	shuffle(wordsTeam2);
-	var x = document.getElementById("lbl2");
+	var x = document.getElementById("lblOutput");
 	if (b == 0){
 		x.innerHTML = wordsTeam1[0];
 		wordsTeam1.splice(0, 1);
