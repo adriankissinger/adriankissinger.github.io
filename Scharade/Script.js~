@@ -16,7 +16,6 @@ function addWord(){
 }
 
 function keyPressed(e){
-	window.alert(e.code);
 	if (e.code == 'Enter'){
 		addWord();	
 	}
