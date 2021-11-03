@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!-- 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 -->
+<!-- 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 -->
 
 <html>
 <head>
@@ -12,21 +12,18 @@
 <div id="divBack">
 
 <div id="divFrm">
-<form id="frm1">
 	<label id="lblTeam">Team:</label>
-	<input type="radio" id="1" name="team">
+	<input type="radio" id="1" name="team" >
 	<label id="lbl1">1</label>
-	<input type="radio" id="2" name="team">
+	<input type="radio" id="2" name="team" >
 	<label id="lbl2">2</label><br><br>
 	Wort: <input type="text" name="word" value="" id="input">
-	<button onclick="addWord()" id="btnAdd">Hinzufügen</button>
-</form>
 </div>
 
 
 <!--  <a href="start.html" > Spiel starten</a> -->
 <br><br>
-<label id="lblOutput">____</label>
+<label id="lblOutput">Xhbjhfew</label>
 <button onclick="nextWord()" id="bNext">Nächstes Wort</button>
 
 

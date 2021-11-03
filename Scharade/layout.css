@@ -18,7 +18,6 @@ light grey rgb(232,231,237)
 	border-style: solid;
 	border-width: 1vw;
 	border-color: rgb(142,137,144);
-	text-align: left;
 	background-color: rgb(232,231,237);
 	-webkit-appearance: none;
    -moz-appearance: none;
@@ -36,16 +35,7 @@ light grey rgb(232,231,237)
 	border-style: dashed;
 	background-color: rgb(232,231,237);
 	border-color: rgb(110,81,205);
-	-webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;
-}
-
-#btnAdd {
-	position: absolute;
-	right: 5vw;
-	background-color: rgb(232,231,237);
-	border-color: rgb(142,137,144);
+	border-width: 3px;
 	-webkit-appearance: none;
    -moz-appearance: none;
    appearance: none;
@@ -67,10 +57,10 @@ light grey rgb(232,231,237)
 
 #lblOutput{
 	position: relative;
-	top: 10vh;
+	top: 100px;
 	border-style: dashed;
 	border-color: rgb(110,81,205);
-	padding: 1vh;
+	font-size: 50px;
 	-webkit-appearance: none;
    -moz-appearance: none;
    appearance: none;
@@ -79,8 +69,11 @@ light grey rgb(232,231,237)
 #bNext {
 	position: relative;
 	width: 120px;
-	top: 10vh;
+	height: 62px;
+	top: 105px;
+	font-size: 50px;
 	background-color: rgb(232,231,237);
+	border-width: 5px;
 	border-color: rgb(142,137,144);
 	-webkit-appearance: none;
    -moz-appearance: none;

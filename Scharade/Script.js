@@ -1,14 +1,24 @@
 const wordsTeam1 = [];
 const wordsTeam2 = [];
+
+document.addEventListener('keydown', keyPressed);
+
 let b = 0;
 function addWord(){
-	var x = document.getElementById("frm1");
-	if (x.elements[0].checked == 1) {
-		wordsTeam1.push(x.elements[2].value);
+	var e = document.getElementById("1");
+	var input = document.getElementById("input");
+	if (e.checked == 1) {
+		wordsTeam1.push(input.value);
 	} else {
-		wordsTeam2.push(x.elements[2].value);
+		wordsTeam2.push(input.value);
 	}
-	x.elements[2].value = "";
+	input.value = "";
+}
+
+function keyPressed(e){
+	if (e.code == 'Enter'){
+		addWord();	
+	}
 }
 
 function nextWord(){
