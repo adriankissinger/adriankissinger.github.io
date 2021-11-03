@@ -20,16 +20,25 @@ light grey rgb(232,231,237)
 	border-color: rgb(142,137,144);
 	text-align: left;
 	background-color: rgb(232,231,237);
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 #1 {
 	background-color: rgb(208,182,145);
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 #input {
 	border-style: dashed;
 	background-color: rgb(232,231,237);
 	border-color: rgb(110,81,205);
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 #btnAdd {
@@ -37,12 +46,18 @@ light grey rgb(232,231,237)
 	right: 5vw;
 	background-color: rgb(232,231,237);
 	border-color: rgb(142,137,144);
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 #divBack {
 	text-align: center;
 	height: 100vh;	
 	background-color: rgb(232,231,237);
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }	
 
 
@@ -56,6 +71,9 @@ light grey rgb(232,231,237)
 	border-style: dashed;
 	border-color: rgb(110,81,205);
 	padding: 1vh;
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 #bNext {
@@ -64,4 +82,7 @@ light grey rgb(232,231,237)
 	top: 10vh;
 	background-color: rgb(232,231,237);
 	border-color: rgb(142,137,144);
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
