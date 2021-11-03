@@ -24,7 +24,7 @@
 <!--  <a href="start.html" > Spiel starten</a> -->
 <br><br>
 <label id="lblOutput">Xhbjhfew</label>
-<button onclick="nextWord()" id="bNext">Nächstes Wort</button>
+<button onclick="nextWord()" id="bNext">Next</button>
 
 
 
