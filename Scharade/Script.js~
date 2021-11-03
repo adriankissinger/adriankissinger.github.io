@@ -1,5 +1,8 @@
 const wordsTeam1 = [];
 const wordsTeam2 = [];
+
+document.addEventListener('keydown', keyPressed);
+
 let b = 0;
 function addWord(){
 	var e = document.getElementById("1");
@@ -10,6 +13,12 @@ function addWord(){
 		wordsTeam2.push(input.value);
 	}
 	input.value = "";
+}
+
+function keyPressed(e){
+	if (e.code == 'Enter'){
+		addWord();	
+	}
 }
 
 function nextWord(){

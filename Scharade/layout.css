@@ -24,12 +24,6 @@ light grey rgb(232,231,237)
    appearance: none;
 }
 
-#1 {
-	background-color: rgb(208,182,145);
-	-webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;
-}
 
 #input {
 	border-style: dashed;
