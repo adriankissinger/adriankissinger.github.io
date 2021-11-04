@@ -10,6 +10,19 @@ light grey rgb(232,231,237)
 
 */
 
+/* Safari 11+ */
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+selector { 
+property:value; 
+}
+}}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
 #divFrm {
 	padding-left: 5vw;
 	padding-right: 5vw;
@@ -49,8 +62,6 @@ light grey rgb(232,231,237)
 #divOut {
 	top: 20vh;
 	height: 40vh;
-	border-style: dashed;
-	border-color: black;
 	text-align: center;
 }
 

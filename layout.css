@@ -1,0 +1,74 @@
+:root {
+	--primary: #d3d3d3;
+	--secundary: #a9a9a9;
+	--accent: #00ffff;
+}
+
+/* Safari 11+ */
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+selector { 
+property:value; 
+}
+}}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.basic_container {
+	background-color: var(--primary);
+}
+
+#navbar {
+	font-size: 24px;
+}
+
+.navbar_button {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.navbar_button:hover {
+	background-color: var(--secundary);
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#games {
+	position: relative;
+	left: 25vw;
+	top: 10vh;
+	height: 100vh;
+	font-size: 0;
+}
+
+#row_1 {
+	position: relative;
+	top: 10vw;
+}
+
+.game_container {
+	position: relative;
+	display: inline-block;
+	width: 20vw;
+	height: 15vh;
+	margin-left: 3vw;	
+	
+	
+	border-style: solid;
+	border-color: var(--secundary);
+}
+
+.game_container_text {
+	position: relative;
+	top: 85%;
+	left: 10%;
+	font-size: 18px;
+}
+
+

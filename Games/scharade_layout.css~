@@ -10,6 +10,11 @@ light grey rgb(232,231,237)
 
 */
 
+body {
+	padding: 0;
+	margin: 0;
+}
+
 #divFrm {
 	padding-left: 5vw;
 	padding-right: 5vw;

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Scharade</title>
+	<link rel="stylesheet" href="scharade_layout.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="Script.js" language="JavaScript" type="text/javascript"></script>
+</head>
+<body>
+	<div id="divBack">
+		<div id="divFrm">
+			<label id="lblTeam">Team:</label>
+			<input type="radio" id="1" name="team" >
+			<label id="lbl1">1</label>
+			<input type="radio" id="2" name="team" >
+			<label id="lbl2">2</label><br><br>
+			Wort: <input type="text" name="word" value="" id="input">
+		</div>
+
+		<div id="divOut">
+			<label id="lblOutput">______</label>
+			<button onclick="nextWord()" id="bNext">Next</button>
+		</div>
+	</div>
+</body>
+</html>
